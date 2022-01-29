@@ -2,7 +2,9 @@
 @section("content")
 <div class="container custom-login">
     <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">
+        <div class="col-sm-4 col-sm-offset-4" >
+            <h1 style="text-align: center">Registration</h1>
+
             <form action="registerAction" method="POST" >
                 @csrf
                 <div class="form-group">
