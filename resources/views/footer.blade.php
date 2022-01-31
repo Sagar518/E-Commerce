@@ -236,7 +236,7 @@
                         <div class="col-xl-4 col-lg-4 mb-50">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="index.html"> MyLOgo </a>
+                                    <a href="index.html"> <img src="{{url('images/ecommerce-websites-logo-design20.jpg')}}" alt="" style="position:relative;top:20px;"> </a>
                                 </div>
                                 <div class="footer-text">
                                     <p> Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -299,7 +299,7 @@
                         <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                             <div class="footer-menu">
                                 <ul>
-                                    <li> <a href="#"> Home </a> </li>
+                                    <li> <a href="/"> Home </a> </li>
                                     <li> <a href="#"> Terms </a> </li>
                                     <li> <a href="#"> Privacy </a> </li>
                                     <li> <a href="#"> Policy </a> </li>

@@ -101,9 +101,9 @@ class ProductController extends Controller
              $order->payment_status="pending";
              $order->save();
              Cart::where('user_id',$userId)->delete();
+             return redirect('/');
          }
-         $req->input();
-         return redirect('/');
+
     }
 
     function myOrders()
